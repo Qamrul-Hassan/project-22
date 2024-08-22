@@ -98,3 +98,172 @@ nav ul li a:hover {
 .appointment :hover {
     background-color: #0056b3;
 }
+/* Health Section*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.top-info-bar {
+    background-color: #f1f4fb;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.left-info span,
+.right-info span {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.left-info i,
+.right-info i {
+    margin-right: 10px;
+    color: #0364e2;
+}
+
+.right-info .social-icon a {
+    margin-left: 10px;
+    color: #0364e2;
+    text-decoration: none;
+}
+
+.right-info .social-icon a:hover {
+    color: #007bff;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-right: -700px;
+}
+
+.branding h1 {
+    margin: 0;
+    color: #0463fa;
+    font-size: 45px;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    margin-left: -600px;
+}
+
+.branding h1 span::before {
+    content: "\f015";
+    font-family: "Roboto", sans-serif;
+    margin-right: 0px;
+    font-weight: bolder;  
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.appointment {
+    background-color: #0463fa;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 4px;
+}
+
+.appointment:hover {
+    background-color: #0056b3;
+}
+
+/* Health Section */
+
+.health-section {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-side {
+    width: 60%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 318.7px;
+    box-sizing: border-box;
+    margin-left: 2px;
+}
+
+.left-side h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    
+}
+
+.stats-item h2 {
+    font-size: 36px;
+    margin: 0;
+    
+    
+}
+
+.stats-item p {
+    margin: 0;
+    font-size: 18px;
+    text-align: start;
+}
+
+.right-side {
+    width: 51%;
+    background-image: url('/img/carousel-1.jpg');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+
+.overlay {
+    position:;
+    top: 0;
+    left: 0;
+    width: %;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50%;
+}
+
+.overlay h2 {
+    color: rgba(255, 255, 255, 0.473);
+    font-size: 70px;
+    margin: 0;
+    
+}
