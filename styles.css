@@ -474,3 +474,92 @@ nav ul li a:hover {
 .card button:hover {
     background-color: rgba(114, 188, 218, 0.26);
 }
+
+/*Features*/
+
+
+.features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 80%;
+    
+}
+
+.left-container {
+    background-color: #0364e2;
+    padding: 20px;
+    
+}
+
+.left-container button {
+    background-color: #ecf0ef63;
+    color: #faf8f873;
+    border: 2px solid #dddddd6c;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.left-container h2 {
+    color:#fff;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.left-container p {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-left: 40%;
+   
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.icon-item i {
+    font-size: 24px;
+    color:#007bff;
+    border: 1px;
+    background-color: #ddd;
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+
+.icon-item h5 {
+    color: #ffffffa9;
+    margin: 0;
+}
+
+.icon-item h3 {
+    color: #ffffffc7;
+    margin: 0;
+}
+
+.right-side-div {
+    width: 100%;
+}
+
+.right-side-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
