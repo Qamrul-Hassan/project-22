@@ -402,7 +402,7 @@ nav ul li a:hover {
 
 
 .health-care {
-    width: 80%;
+    width: 60%;
     margin: 0px auto;
     margin-top: -100px;
     margin-bottom: 6rem;
@@ -463,8 +463,8 @@ nav ul li a:hover {
 
 .card button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #e9ecf0;
+    color: rgba(102, 100, 100, 0.596);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -472,5 +472,5 @@ nav ul li a:hover {
 }
 
 .card button:hover {
-    background-color: #0056b3;
+    background-color: rgba(114, 188, 218, 0.26);
 }
