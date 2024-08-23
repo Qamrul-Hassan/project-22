@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
    
 }
 
@@ -11,13 +12,19 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 20px;
+      
 }
 
 .top-info-bar {
     background-color: #f1f4fb;
-    border-bottom: 1px solid #ddd;
-    padding: 5px o;
-    
+    border-bottom: .3px solid #ddd;
+    padding: 8px o;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -8px;
+   
 }
 
 
@@ -53,6 +60,8 @@ header {
     border-bottom: 1px solid #ddd;
     padding: 20px 0;
     margin-right: -700px;
+    
+    
 }
 
 .branding h1 {
@@ -111,13 +120,14 @@ body {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 7px 20px;
+    
 }
 
 .top-info-bar {
     background-color: #f1f4fb;
     border-bottom: 1px solid #ddd;
-    padding: 5px 0;
+    padding: 9px 0;
 }
 
 .left-info span,
@@ -146,8 +156,14 @@ body {
 header {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    padding: 20px 0;
-    margin-right: -700px;
+    padding-left: 50% ;
+    padding-right: 50%;
+    
+    position: fixed;
+    z-index: 1;
+    margin-top: 31px;
+    
+
 }
 
 .branding h1 {
@@ -157,18 +173,14 @@ header {
     display: flex;
     align-content: center;
     gap: 10px;
-    margin-left: -600px;
+    margin-left: -850px;
 }
 
-.branding h1 span::before {
-    content: "\f015";
-    font-family: "Roboto", sans-serif;
-    margin-right: 0px;
-    font-weight: bolder;  
-}
 
 nav ul li {
-    display: inline;
+    display:inline;
+   
+    
 }
 
 nav ul li a {
@@ -184,8 +196,11 @@ nav ul li a:hover {
 .appointment {
     background-color: #0463fa;
     color: #fff;
-    padding: 20px 20px;
+    padding: 20px 70px;
     border-radius: 4px;
+    
+    
+    
 }
 
 .appointment:hover {
@@ -286,7 +301,7 @@ nav ul li a:hover {
 
 .image-group {
     position: relative;
-    flex: 1;
+    
 }
 
 .image-group .image-top {
@@ -294,20 +309,23 @@ nav ul li a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    overflow: visible;
-    
+    border: 5px solid #fff;
+    background-color: #fff;
 }
 
 .image-group .image-bottom {
     position: absolute;
     bottom: -50px; /* Adjust to control overlap */
     left: -30px; /* Adjust to control overlap */
-    width: 10%; /* Adjust size based on your layout */
+    width: 200px; /* Adjust size based on your layout */
     height: auto;
     border-radius: 10px;
+    padding: 10px;
     z-index: 1;
+    background-color: #fff;
     
 }
+
 
 .text-content {
     flex: 1;
