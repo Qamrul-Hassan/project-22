@@ -442,7 +442,7 @@ nav ul li a:hover {
     text-align: left;
 }
 
-.card i {
+.card i {1
     margin-bottom: 10px;
     color: #007bff;
     font-size: 20px;
@@ -497,7 +497,7 @@ nav ul li a:hover {
     background-color: #ecf0ef63;
     color: #faf8f873;
     border: 2px solid #dddddd6c;
-    padding: 10px 20px;
+    padding: 10px 20px;1
     border-radius: 15px;
     cursor: pointer;
     margin-bottom: 20px;
@@ -560,4 +560,87 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/*Doctors-Section*/
+
+/* General Styling */
+
+
+
+/* Doctors Section Styling */
+.doctors-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.section-head {
+    margin-bottom: 50px;
+}
+
+.doc-badge {
+    display: inline-block;
+    background-color: #f0f2f3;
+    color: rgba(12, 12, 12, 0.377);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid #55555565;
+    margin-bottom: 10px;
+}
+
+.section-head h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Doctors Container */
+.doctors-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Doctor Cards Styling */
+.doctor-cards {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.doctor-cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.doctor-cards h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.doctor-cards p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Social Icons */
+.social-icon a {
+    color: #0364e2;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.social-icon a:hover {
+    color: #007bff;
 }
