@@ -638,3 +638,34 @@ nav ul li a:hover {
 .social-icon a:hover {
     color: #0056b3;
 }
+
+/*Appointment Section*/
+
+.appointment-section {
+    padding: 201px;
+    background-color: #f9f9f9;
+}
+
+.appointment-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.section-head {
+    max-width: 50%;
+}
+
+.apoint-badge {
+    display: inline-block;
+    background-color: #4e4c4c54;
+    color: #3333336c;
+    padding: 5PX 25PX;
+    border-radius: 10PX;
+    font-size: 20PX;
+    margin-bottom: 10PX;
+    border: 2PX solid #55555565;
+    text-align: center;
+}
