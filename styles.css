@@ -641,31 +641,124 @@ nav ul li a:hover {
 
 /*Appointment Section*/
 
+
+
+
 .appointment-section {
-    padding: 201px;
-    background-color: #f9f9f9;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.appointment-container{
+.appointment-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #f0f2f3;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.appointment-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.appointment-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.appointment-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-.section-head {
-    max-width: 50%;
+    gap: 20px;
 }
 
-.apoint-badge {
-    display: inline-block;
-    background-color: #4e4c4c54;
-    color: #3333336c;
-    padding: 5PX 25PX;
-    border-radius: 10PX;
-    font-size: 20PX;
-    margin-bottom: 10PX;
-    border: 2PX solid #55555565;
-    text-align: center;
+.contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    background-color: #f0f4fd;
+    padding: 50px 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-box i {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.contact-box h4 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    
+}
+
+.contact-box p {
+    font-size: 16px;
+    color: #007bff;
+    margin: 0;
+}
+
+.appointment-form {
+    flex: 1.5;
+    background-color: #f0f4fd;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.appointment-form .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appointment-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.appointment-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.appointment-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
